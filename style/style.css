@@ -1,0 +1,47 @@
+body{
+    background-color: #060606;
+    color: #fefaf1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app{
+    background-color: #24272c;
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+button{
+    background-color: #68fe9a;
+    color: #060606;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 50%;
+    border-style: none;
+}
+
+.inputText{
+    height: 20px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.tareaOk, .borrar{
+    color: #060606;
+    font-size: 14px;
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 7px;
+}
+
+.borrar{
+    background-color: rgb(173, 0, 0);
+    color: #fefaf1;
+}
+
+ul{
+    list-style: circle;
+}
