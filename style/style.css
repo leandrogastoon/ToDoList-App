@@ -4,6 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Comic Neue', cursive;
 }
 
 #app{
@@ -45,3 +46,4 @@ button{
 ul{
     list-style: circle;
 }
+

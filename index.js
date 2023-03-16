@@ -33,10 +33,12 @@ function agregar(){
         li.removeChild(btnTareaTerminada);
         li.removeChild(btnBorrar);
         
-        const txtOk = document.createElement("H5");
-        txtOk.textContent = "Terminada";
-        li.appendChild(txtOk);
-        txtOk.classList.add("textoTareaOk");
+        // const txtOk = document.createElement("H5");
+        // txtOk.textContent = "Terminada";
+        // li.appendChild(txtOk);
+        // txtOk.classList.add("textoTareaOk");
+
+        li.textContent = tarea + " --- Terminada";
     });
 
     const btnBorrar = document.createElement("button");
